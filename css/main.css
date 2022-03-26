@@ -1,0 +1,41 @@
+body {
+    background-color: slategray;
+    margin: 0;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    background-color: white;
+    height: 69vmin;
+    width: 69vmin;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vmin;
+    margin-bottom: 5vmin;
+    grid-template-columns: 23vmin 23vmin 23vmin;  
+    grid-template-rows: 23vmin 23vmin 23vmin;
+}
+
+#board > div {
+    background-color: beige;
+    border: 1.66vmin solid slategray; 
+    height: 20vmin;
+    width: 20vmin;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex;
+}
+
+footer {
+    background-color: darkslategray;
+    height: 15vmin;
+    width: 100vw;
+    margin-bottom: 0;
+}
