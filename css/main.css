@@ -1,13 +1,14 @@
 body {
     background-color: slategray;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
 #board {
@@ -21,6 +22,7 @@ main {
     margin-bottom: 5vmin;
     grid-template-columns: 23vmin 23vmin 23vmin;  
     grid-template-rows: 23vmin 23vmin 23vmin;
+
 }
 
 #board > div {
@@ -30,12 +32,31 @@ main {
     width: 20vmin;
     display: flex;
     justify-content: space-around;
-    align-items: flex;
+    align-items: center;
+    font-size: 13.5vmin;
 }
 
 footer {
     background-color: darkslategray;
-    height: 15vmin;
+    height: 12vmin;
     width: 100vw;
     margin-bottom: 0;
+    color: beige;
+    font-size: 9vmin;
+    text-align: center;
+}
+
+button {
+    background-color: darkslategray;
+    font-size: 9vmin;
+    height: 30vmin;
+    width: 30vw;
+    color: beige;
+    align-self: inline-block;
+    z-index: 9;
+    position: absolute;
+    top: 30vmin;
+    left: 35vw;
+    filter: blur(0);
+    visibility: hidden;
 }
