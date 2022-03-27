@@ -22,11 +22,11 @@ main {
     margin-bottom: 5vmin;
     grid-template-columns: 23vmin 23vmin 23vmin;  
     grid-template-rows: 23vmin 23vmin 23vmin;
-
 }
 
 #board > div {
     background-color: beige;
+    color: rgb(71, 82, 94);
     border: 1.66vmin solid slategray; 
     height: 20vmin;
     width: 20vmin;
@@ -34,6 +34,7 @@ main {
     justify-content: space-around;
     align-items: center;
     font-size: 13.5vmin;
+    text-shadow: 4px 4px 6px rgb(163, 94, 163);
 }
 
 footer {
@@ -57,6 +58,8 @@ button {
     position: absolute;
     top: 30vmin;
     left: 35vw;
-    filter: blur(0);
     visibility: hidden;
+    border: none;
+    box-shadow: 5px 6px 12px rgb(163, 94, 163);
+    border-radius: 15px;
 }
